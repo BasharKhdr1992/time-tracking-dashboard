@@ -1,0 +1,66 @@
+.activity {
+  height: max-content;
+  width: 15em;
+  margin-left: 1em;
+  background-position: top -10px right 15px;
+  background-repeat: no-repeat;
+  border-radius: 14px;
+}
+
+.activity-top {
+  height: 7vh;
+}
+
+.activity-info {
+  padding: 1em;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(235, 46%, 20%);
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.title-row .title {
+  font-size: 18px;
+  color: hsl(236, 100%, 87%);
+}
+
+.title-row .ellipsis {
+  width: 12px;
+  height: 4px;
+}
+
+.current {
+  font-size: 48px;
+  color: hsl(0, 0%, 98%);
+}
+
+.previous {
+  font-size: 12px;
+  margin-bottom: 1em;
+  color: hsl(236, 100%, 87%);
+}
+
+@media screen and (max-width: 900px) {
+  .activity {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .previous {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .activity-stats {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,0 +1,69 @@
+.dashboard {
+  width: 80%;
+  min-height: 65vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-card {
+  min-height: 65vh;
+  width: 25em;
+  margin-right: 1em;
+  border-radius: 12px;
+  background-color: hsl(235, 46%, 20%);
+}
+
+.personal-details {
+  min-height: 40vh;
+  color: hsl(236, 100%, 87%);
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.pd-pic {
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 100%;
+  height: auto;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 20px;
+}
+
+.pd-name {
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.activities {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+  .dashboard {
+    flex-direction: column;
+  }
+
+  .main-card {
+    min-height: auto;
+    width: 100%;
+    padding-bottom: 1em;
+  }
+
+  .personal-details {
+    min-height: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .activities {
+    flex-direction: column;
+  }
+}
