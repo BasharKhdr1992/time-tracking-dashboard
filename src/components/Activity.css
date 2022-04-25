@@ -27,7 +27,8 @@
 
 .title-row .title {
   font-size: 18px;
-  color: hsl(236, 100%, 87%);
+  font-weight: 500;
+  color: hsl(0, 0%, 98%);
 }
 
 .title-row .ellipsis {
@@ -50,6 +51,7 @@
   .activity {
     margin-left: 0;
     width: 100%;
+    margin-bottom: 1em;
   }
 
   .previous {
