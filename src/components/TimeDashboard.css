@@ -32,6 +32,10 @@
   margin-bottom: 20px;
 }
 
+.pd-name-wrapper {
+  padding-bottom: 3em;
+}
+
 .pd-name {
   font-weight: 300;
   font-size: 36px;
