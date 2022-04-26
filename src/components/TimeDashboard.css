@@ -1,20 +1,18 @@
 .dashboard {
   width: 80%;
-  height: 65vh;
   display: flex;
   flex-direction: row;
 }
 
 .main-card {
-  height: 65vh;
   width: 25em;
   margin-right: 1em;
   border-radius: 12px;
+  margin-bottom: 1em;
   background-color: hsl(235, 46%, 20%);
 }
 
 .personal-details {
-  height: 40vh;
   color: hsl(236, 100%, 87%);
   background-color: hsl(246, 80%, 60%);
   border-radius: 12px;

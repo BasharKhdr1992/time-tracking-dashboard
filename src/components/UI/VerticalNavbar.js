@@ -9,6 +9,7 @@ const VerticalNavbar = ({ links, onClick, category }) => {
 
         return (
           <button
+            key={index}
             onClick={() => onClick(link)}
             className="nav-link"
             style={{

@@ -1,14 +1,15 @@
 .activity {
-  height: max-content;
+  height: auto;
   width: 15em;
   margin-left: 1em;
+  margin-bottom: 1em;
   background-position: top -10px right 15px;
   background-repeat: no-repeat;
   border-radius: 14px;
 }
 
 .activity-top {
-  height: 7vh;
+  height: 5vh;
 }
 
 .activity-info {
