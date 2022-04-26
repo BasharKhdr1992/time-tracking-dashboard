@@ -1,12 +1,12 @@
 .dashboard {
   width: 80%;
-  min-height: 65vh;
+  height: 65vh;
   display: flex;
   flex-direction: row;
 }
 
 .main-card {
-  min-height: 65vh;
+  height: 65vh;
   width: 25em;
   margin-right: 1em;
   border-radius: 12px;
@@ -14,7 +14,7 @@
 }
 
 .personal-details {
-  min-height: 40vh;
+  height: 40vh;
   color: hsl(236, 100%, 87%);
   background-color: hsl(246, 80%, 60%);
   border-radius: 12px;
@@ -49,17 +49,18 @@
 @media screen and (max-width: 900px) {
   .dashboard {
     flex-direction: column;
+    height: auto;
   }
 
   .main-card {
-    min-height: auto;
+    height: auto;
     width: 100%;
     padding-bottom: 1em;
     margin-bottom: 1em;
   }
 
   .personal-details {
-    min-height: auto;
+    height: auto;
     flex-direction: row;
     justify-content: space-evenly;
   }
