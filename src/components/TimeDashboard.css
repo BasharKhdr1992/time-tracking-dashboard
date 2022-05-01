@@ -48,10 +48,14 @@
   align-content: space-between;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1230px) {
   .dashboard {
     flex-direction: column;
     height: auto;
+  }
+
+  .activities {
+    justify-content: space-between;
   }
 
   .main-card {
@@ -66,7 +70,9 @@
     flex-direction: row;
     justify-content: space-evenly;
   }
+}
 
+@media screen and (max-width: 800px) {
   .activities {
     flex-direction: column;
   }

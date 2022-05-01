@@ -19,7 +19,7 @@
   color: hsl(236, 100%, 87%);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1230px) {
   .v-navbar {
     flex-direction: row;
     justify-content: center;

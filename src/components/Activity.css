@@ -53,11 +53,17 @@
   color: hsl(236, 100%, 87%);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1230px) {
   .activity {
+    width: 45%;
     margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .activity {
     width: 100%;
-    margin-bottom: 1em;
+    margin-left: 0;
   }
 
   .previous {
